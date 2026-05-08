@@ -1,7 +1,7 @@
 # Cancer Prediction Project
 
 <div align="center">
-    <img src="cancer.jpg" width="600">
+    <img src="cancer1.jpg" width="600">
 </div>
 
 ## Overview
@@ -126,5 +126,5 @@ This project is intended for educational and research purposes only. Predictive 
 
 ## Author
 
-Yuki Ho
+Hsin Yu Ho
 UC San Diego – Data Science
