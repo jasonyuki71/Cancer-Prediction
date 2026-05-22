@@ -148,4 +148,5 @@ This project is intended for educational and research purposes only. Predictive 
 ## Author
 
 Hsin Yu Ho
+
 UC San Diego – Data Science
