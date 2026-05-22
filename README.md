@@ -66,12 +66,17 @@ A multivariate Logistic Regression model was implemented to predict cancer diagn
 
 ### Model Evaluation Metrics
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC
-- Confusion Matrix
+- **Accuracy** measures the overall percentage of correct predictions made by the model.
+
+- **Precision** measures how many patients predicted as cancer cases were actually diagnosed with cancer.
+
+- **Recall** measures how effectively the model identified actual cancer patients.
+
+- **F1 Score** balances precision and recall, providing an overall measure of classification quality.
+
+- **ROC-AUC** evaluates the model’s ability to distinguish between cancer and non-cancer patients across different classification thresholds.
+
+The model achieved strong overall performance, with an ROC-AUC score above 0.91, indicating excellent discriminative capability between positive and negative cancer diagnoses.
 
 ### Model Performance
 
@@ -94,7 +99,23 @@ The model demonstrated strong predictive performance with minimal overfitting.
 - Logistic Regression achieved strong classification performance using demographic and health-related features.
 
 ---
+## Feature Selection
 
+Compared to more complex machine learning models, logistic regression also offers lower computational cost, reduced overfitting risk, and greater interpretability for healthcare-related applications.
+
+The variables included in the logistic regression model were selected based on both statistical analysis results and domain relevance to cancer risk.
+
+Features such as age, BMI, smoking status, alcohol intake, physical activity, genetic risk, and cancer history demonstrated statistically significant differences between cancer and non-cancer groups during exploratory data analysis and hypothesis testing.
+
+These variables were chosen because prior medical research and the statistical findings from this project suggest that they may contribute meaningfully to cancer diagnosis prediction.
+
+Gender was also included as a demographic variable to evaluate potential differences in cancer prevalence across patient groups.
+
+### Why Logistic Regression?
+
+Logistic Regression was selected because the target variable (cancer diagnosis) is binary, making it well-suited for classification tasks. In addition to strong predictive performance, logistic regression provides interpretable feature coefficients, allowing the relative influence of different health and lifestyle variables on cancer prediction to be analyzed directly.
+
+---
 ## Technologies Used
 
 - Python
