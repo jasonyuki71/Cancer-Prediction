@@ -1,7 +1,7 @@
 # Cancer Prediction Project
 
 <div align="center">
-    <img src="image/cancer1.jpg" width="600">
+    <img src="image/cancer1.jpg" width="800">
 </div>
 
 ## Overview
